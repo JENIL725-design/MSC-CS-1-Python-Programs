@@ -79,7 +79,7 @@ To test or run any of these scripts on your local machine, ensure you have the f
 
 1. **Clone the repository** to your local environment using your terminal:
    ```bash
-   git clone <your-github-repo-link-here>
+   git clone <https://github.com/JENIL725-design/MSC-CS-1-Python-Programs)>
 ```
 2. **Navigate** into the downloaded directory.
 3. **Execute** individual files by calling the Python interpreter followed by the exact file name. For example:
