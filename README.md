@@ -100,7 +100,3 @@ python prog-1.py
 | **Enrollment No.** | 92600565009 |
 | **Degree Program** | MSc Cybersecurity |
 | **Course Module** | Python Programming Lab |
-
----
-
-**Final Note:** These 21 source files represent the successful completion of all mandated lab requirements, demonstrating a practical understanding of both functional and object-oriented Python paradigms.
