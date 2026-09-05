@@ -146,7 +146,7 @@ python prog-1.py
 
 | Category | Details |
 | --- | --- |
-| **Student Name** | Jenil N makwana |
+| **Student Name** | Jenil Makwana |
 | **Enrollment No.** | 92600565009 |
 | **Degree Program** | MSc Cybersecurity |
 | **Course Module** | Python Programming Lab |
