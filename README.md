@@ -1,102 +1,80 @@
-# Python Programming Lab Repository
+MSC-CS-1-Python-Programs 🚀
 
-**Author:** Jenil N makwana  
-**Enrollment:** 92600565009  
-**Program:** MSc Cybersecurity  
+This repository contains a comprehensive collection of Python programs completed for the M.Sc. Cyber Security coursework. The practicals cover a wide range of topics from fundamental programming to database management, data visualization, and network security concepts.
 
----
+Author: Jenil N Makwana
 
-## Repository Overview
+Enrollment: 92600565009
 
-Welcome to my Python Programming Lab repository. This space contains all the practical lab assignments completed for the MSc Cybersecurity curriculum. The programs map my progression from core Python syntax and basic algorithmic logic (Unit 1) all the way through advanced data structures and Object-Oriented Programming (OOP) architectures (Unit 2). 
+Program: M.Sc. Cyber Security
 
----
+Repository: JENIL725-design/MSC-CS-1-Python-Programs
 
-## Index of Practicals
+📚 Topics Covered
 
-### Unit 1: Core Python & Algorithmic Logic
+The repository is structured around 50 practical assignments, encompassing the following key areas:
 
-| No. | Practical Title |
-| :--- | :--- |
-| **1** | Python Program to Print Hello World |
-| **2** | Python program to do arithmetical operations |
-| **3** | Python program to Swap two variables |
-| **4** | Python program to find factorial of number |
-| **5** | Python program to find fibonacci series |
-| **6** | Python program to print the elements of an array |
-| **7** | Python program to print the largest element and smallest element in an array |
-| **8** | Python program to add two matrix using array and function |
-| **9** | Python program to print the sum of all elements in an array |
-| **10** | Python Program to concatenate two strings |
+Core Python: Variables, loops, conditionals, functions, and file handling (I/O).
 
-### Unit 2: Data Structures & Object-Oriented Programming
+Object-Oriented Programming (OOP): Classes, objects, inheritance, and exception handling.
 
-| No. | Practical Title |
-| :--- | :--- |
-| **11** | Python Program to demonstrate use of list and various functions of it |
-| **12** | Python Program to demonstrate use of tuple and various functions of it |
-| **13** | Python Program to demonstrate the use of dictionary and various functions of it |
-| **14** | Python Program to create a function |
-| **15** | Python Program to demonstrate the use of various arguments which can be passed to functions |
-| **16** | Python Program to demonstrate the use of class |
-| **17** | Python Program to demonstrate the concept of inner class |
-| **18** | Python Program to demonstrate the use of methods |
-| **19** | Python Program to demonstrate various types of methods |
-| **20(a)** | Python Program to show method overloading by adding two numbers and three numbers using the same method name |
-| **20(b)** | Python Program to show method overriding using a parent class Animal and a child class Dog |
+Database Management: MySQL integration, creating databases, and performing CRUD (Create, Read, Update, Delete) operations using mysql.connector.
 
----
+Data Science & Visualization: Data manipulation with DataFrames and data visualization (Pie, Bar, Line, Histogram) using pandas and matplotlib.
 
-## Key Topics Explored
+Networking & Security:
 
-**Foundation (Unit 1):**
-* Environment setup and basic standard output.
-* Mathematical operations and variable manipulation.
-* Iterative loops, conditional logic, and recursion fundamentals (Factorials, Fibonacci).
-* Array traversal, element comparison, and multidimensional matrix arithmetic.
-* String handling and concatenation.
+WHOIS domain lookups
 
-**Advanced (Unit 2):**
-* Mutable vs. Immutable data structures (Lists, Tuples, Dictionaries).
-* Modular programming via custom user-defined functions.
-* Parameter parsing (Positional, Keyword, and Default arguments).
-* Encapsulation using Classes and Objects.
-* Class architectures including Nested/Inner classes.
-* Differentiating Instance, Class (`@classmethod`), and Static (`@staticmethod`) methods.
-* Implementing Polymorphism (Method Overriding and simulated Method Overloading).
+DNS resolution and IP extraction (socket)
 
----
+Subprocess execution for network commands (nslookup)
 
-## Prerequisites & Tools
+Cryptographic hashing (MD5, SHA-256) using hashlib
 
-To test or run any of these scripts on your local machine, ensure you have the following setup:
-* **Python Engine:** Python 3.x or higher installed.
-* **Code Editor (Optional but recommended):** VS Code, PyCharm, or Jupyter. 
+🛠️ Technologies & Libraries
 
----
+Language: Python 3.x
 
-## Execution Guide
+Database: MySQL (via XAMPP / Laragon)
 
-1. **Clone the repository** to your local environment using your terminal:
-   ```bash
-   git clone https://github.com/JENIL725-design/MSC-CS-1-Python-Programs.git
-```
-2. **Navigate** into the downloaded directory.
-3. **Execute** individual files by calling the Python interpreter followed by the exact file name. For example:
-```bash
-python prog-1.py
+Key Libraries Used:
 
-```
+mysql-connector-python (Database connectivity)
+
+pandas (DataFrames and data structures)
+
+matplotlib (Graph plotting and data visualization)
+
+python-whois (Domain registration lookups)
+
+Built-in modules: socket, subprocess, hashlib, os
+
+⚙️ Setup & Installation
+
+1. Clone the repository:
+
+git clone https://github.com/JENIL725-design/MSC-CS-1-Python-Programs.git
+cd MSC-CS-1-Python-Programs
 
 
+2. Install dependencies:
+Make sure Python is installed on your Windows machine, then run:
 
----
+pip install mysql-connector-python pandas matplotlib python-whois
 
-## Author Details
 
-| Category | Details |
-| --- | --- |
-| **Student Name** | Jenil Makwana |
-| **Enrollment No.** | 92600565009 |
-| **Degree Program** | MSc Cybersecurity |
-| **Course Module** | Python Programming Lab |
+3. Database Configuration (For MySQL Practicals):
+Ensure your local MySQL server is running. The scripts are configured to connect to localhost with the default credentials.
+
+🚀 How to Run
+
+Navigate to the directory in your terminal (e.g., VS Code integrated terminal) and execute the files using the py command:
+
+# Example: Running Practical 50
+py 50.py
+
+
+📌 Note on Network Commands (Practical 45)
+
+Practical 45 involves performing DNS lookups via terminal commands. Since the dig command is native to Linux, the script has been optimized for Windows environments using the native nslookup command via the subprocess module to ensure flawless execution without requiring BIND9 tools or WSL.
